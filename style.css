@@ -12,26 +12,35 @@ h1{
 .welcome{
     font-size: 50px;
     margin-top: 100px;
+    margin-left: 100px;
 
 }
+.sr{
+    font-size: 50px;
+    margin-left: 100px;
+}
 h3{
+    margin-left: 100px;
+
     color: black;
 }
 p{
+    margin-left: 100px;
+
     color: black;
 }
 .orange{
-    color: orange;
+    color: rgb(255, 168, 7);
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
-    padding-left: 5%;
 }
 .half-width img{
-    width: 100%;
+    width: 60%;
 }
 .link-button{
     text-decoration: none;
@@ -39,9 +48,19 @@ section{
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
+    margin-left: 100px;
+
   
 }
 .top-banner{
-    background-image: url(images/top-banner.png);
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin: 0%;
 }
 
